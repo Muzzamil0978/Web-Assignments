@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  position: relative;
+    width: 100%;
+  height: 863px;
+}
+
+header .bgImage {
+  width: 100%;
+  height: 863px;
+  background-image: url(./acessts/part-1-backgroundImg.jpg);
+  background-size:contain;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -2;
+  transform: translateZ(-10000000000000000000000000000000000000000000000000000000000000000000000000000000%);
+}
+
+.bgImageLine1 {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.bgImageLine2 {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
+  filter: blur(100px);
+  z-index: -1;
+}
+nav {
+  height: 88px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 25px 145px;
+}
+
+nav .nav-p1 {
+  height: 40px;
+  width: 150px;
+}
+
+nav .nav-p1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+nav .nav-p2 {
+  height: 30px;
+  width: 80px;
+}
+
+nav .nav-p2 .nav-p2Inner {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  font-weight: 600;
+}
+
+.headerMain {
+  height: 80vh;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.headerMainChild{
+  
+  width: 100vh;
+}
+
+.bigText {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.smallText p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.smallText h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.searchBarPlane {
+  height: 56px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.403);
+  border: 1px solid grey;
+  color: white;
+  border-radius: 5px;
+  padding: 16px 16px;
+}
+.searchBarSubmit {
+  height: 56px;
+  width: 40%;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+@media only screen and (max-width: 960px) {
+  nav {
+    height: 75px;
+    width: 100%;
+    padding: 20px 24px;
+  }
+
+  nav .nav-p1 {
+    height: 24px;
+    width: 89px;
+
+    /* margin: auto 15px; */
+  }
+
+  nav .nav-p1 img {
+    height: 100%;
+    width: 100%;
+  }
+  
+.bigText {
+  font-size: 2rem;
+  font-weight: 750;
+}
+.smallText p {
+  font-size: 1.rem;
+  font-weight: 400;
+}
+.smallText h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+.headerMainChild{
+  height: 50vh;
+  width: 70vh;
+}
+}
+
+@media only screen and (max-width: 430px){
+ body{
+  display: none;
+ }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  header {
+  position: relative;
+}
+
+.headerMainChild{
+  height: 50vh;
+  width: 100vh;
+}
+.searchBarPlane {
+  height: 50px;
+  width: 85%;
+  background-color: rgba(0, 0, 0, 0.403);
+  border: 1px solid grey;
+  color: white;
+  border-radius: 5px;
+  padding: 16px 16px;
+}
+.searchBarSubmit {
+  height: 50px;
+  width: 20%;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+.smallText p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.smallText h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  /* line-height: 1.5; */
+  text-align: center;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+}

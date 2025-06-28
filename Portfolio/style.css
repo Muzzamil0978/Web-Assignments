@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #16325B;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyInner {
+    width: 90vw;
+    height: 90vh;
+    background-color: #00303d33;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgBox{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.yaseenImg {
+    height: 150%;
+    width: 200px;
+    background-image: url(./accets/yaseen\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle1 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #2e90ed;
+    border-radius: 50%;
+}
+
+.circle2 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 10px;
+    bottom: 10%;
+    background-color: #2e90ed;
+    border-radius: 50%;
+}
+.main{
+
+}
+.main
+.mainPart1{
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+.part1hBox{
+    text-align: center;
+    
+}
+.h1Blue{
+    color: #FFDC7F;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 700;
+}
+.h1white{
+        color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 65px;
+}
